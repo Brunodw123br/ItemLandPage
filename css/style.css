@@ -212,23 +212,24 @@ body{
     }
 
     .especificacao{
-        padding: 0.5vw 6vw;
+        padding: 0.5vw 3vw;
         background-color: #d0d6e8;
         width: 80%;
         height: 95vh;
         border-radius: 10px;
+        text-align: justify;
     }
 
     .especificacao p{
-        font-size: 0.8vw;
-        margin-top: 1vw;
+        font-size: 1.2vw;
+        margin-top: 0.5vw;
     }
 
     .especificacao h3{
         text-align: center;
         width: 100%;
         font-size: 1.3vw;
-        margin: 1vw 0;
+        margin: 0.5vw 0;
     }
 
     .footerContainer{
@@ -440,7 +441,7 @@ body{
     }
 
     .especificacao{
-        padding: 0.5vh 5vh;
+        padding: 1vh 3vh;
         background-color: #d0d6e8;
         width: 80%;
         height: 88vh;
@@ -450,8 +451,9 @@ body{
     }
 
     .especificacao p{
-        font-size: 1.14vh;
+        font-size: 2.5vw;
         margin-top: 0.2vh;
+        text-align: justify;
     }
 
     .especificacao h3{
@@ -466,12 +468,11 @@ body{
         border-top: 1px solid #333;
         box-shadow: 5px 0 5px rgba(0, 0, 0, 0.7);
         display: flex;
-        justify-items: center;
-        align-items: center;
+        
     }
 
     .footerContainer img{
-        width: 2vh;
-        height: 2vh;
+        width: 4vh;
+        height: 4vh;
     }
 } 
