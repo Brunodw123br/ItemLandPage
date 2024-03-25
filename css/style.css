@@ -32,7 +32,7 @@ body{
 
     .containerHeader img{
         width: 8vw;
-        height: 10vh;
+        height: 16vh;
     }
 
     .container h1{
@@ -68,7 +68,7 @@ body{
         background-color: #eaedf6;
     }
 
-    #produto, #caracteristica, #especificacao, #coverImagemInicial {
+    #produto, #caracteristica, #especificacao{
         width: 100vw;
         height: 120vh;
     }
@@ -90,13 +90,15 @@ body{
     }
 
     #coverImagemInicial{
+        width: 100vw;
+        height: 130vh;
         background-color: rgba(184,183, 247, 0.45);
         display: flex;
         align-items: center;
         justify-content: center;
         text-align: center;
         position:relative;
-        bottom: 120vh;
+        bottom: 130vh;
         color: #eee;
     }
 
@@ -475,3 +477,8 @@ body{
         height: 4vh;
     }
 } 
+
+
+@media only screen and (orientation: portrait) and (min-width > 800){
+
+}
