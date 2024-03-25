@@ -68,7 +68,7 @@ body{
         background-color: #eaedf6;
     }
 
-    #produto, #caracteristica, #especificacao {
+    #produto, #caracteristica, #especificacao, #coverImagemInicial {
         width: 100vw;
         height: 120vh;
     }
@@ -90,8 +90,6 @@ body{
     }
 
     #coverImagemInicial{
-        width: 100vw;
-        height: 120vh;
         background-color: rgba(184,183, 247, 0.45);
         display: flex;
         align-items: center;
@@ -205,31 +203,31 @@ body{
     }
 
     #especificacao h2{
-        margin: 4vw 0 2vw 0;
+        margin: 2vw 0 1vw 0;
         font-size: 4vw;
         color: #333;
         text-align: center;
     }
 
     .especificacao{
-        padding: 0.5vw 3vw;
+        padding: 0.5vw 1.5vw;
         background-color: #d0d6e8;
         width: 80%;
-        height: 95vh;
+        height: 95%;
         border-radius: 10px;
         text-align: justify;
     }
 
     .especificacao p{
         font-size: 1.2vw;
-        margin-top: 0.5vw;
+        margin-top: 0.3vw;
     }
 
     .especificacao h3{
         text-align: center;
         width: 100%;
         font-size: 1.3vw;
-        margin: 0.5vw 0;
+        margin: 0.3vw 0;
     }
 
     .footerContainer{
@@ -241,6 +239,7 @@ body{
         text-align: center;
         justify-items: center;
         height: 10vh;
+        margin-top: 20px;
     }
 
     .footerContainer img{
@@ -444,7 +443,7 @@ body{
         padding: 1vh 3vh;
         background-color: #d0d6e8;
         width: 80%;
-        height: 88vh;
+        height: 95%;
         border-radius: 10px;
         display: flex;
         flex-direction: column;
@@ -460,7 +459,7 @@ body{
         text-align: center;
         width: 100%;
         font-size: 1.5vh;
-        margin: 0.5vh 0;
+        margin: 0.2vh 0;
     }
 
     .footerContainer{
