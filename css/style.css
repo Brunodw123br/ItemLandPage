@@ -37,71 +37,6 @@ body{
         font-size: 4vw;
     }
 
-    .containerHeader button, .container button:hover, .container button:focus{
-        background-color: #00000000;
-        border: none;
-    }
-
-    .burger {
-        position: relative;
-        width: 3vw;
-        height: 2vw;
-        background: transparent;
-        cursor: pointer;
-        display: block;
-    }
-
-    .burger input {
-        display: none;
-    }
-
-    .burger span {
-        display: block;
-        position: absolute;
-        height: .3vw;
-        width: 100%;
-        background: black;
-        border-radius: 9px;
-        opacity: 1;
-        left: 0;
-        transform: rotate(0deg);
-        transition: .25s ease-in-out;
-    }
-
-    .burger span:nth-of-type(1) {
-        top: 0;
-        transform-origin: left center;
-    }
-
-    .burger span:nth-of-type(2) {
-        top: 50%;
-        transform: translateY(-50%);
-        transform-origin: left center;
-    }  
-
-    .burger span:nth-of-type(3) {
-        top: 100%;
-        transform-origin: left center;
-        transform: translateY(-50%);
-    }
-
-    .burger input:checked ~ span:nth-of-type(1) {
-        top: 0;
-        left: .3vw;
-        transform: rotate(405deg);
-    }
-
-    .burger input:checked ~ span:nth-of-type(2) {
-        width: 0%;
-        opacity: 0;
-    }  
-
-    .burger input:checked ~ span:nth-of-type(3) {
-        top: 2.1vw;
-        left: .3vw;
-        transform: rotate(-405deg);
-    }
-
     .containerNav{
         display: flex;
         position: -webkit-sticky;
@@ -215,7 +150,6 @@ body{
         position: relative;
         bottom: 2.6vw;
         z-index: 0.3;
-        background-color: #eaedf6;
         animation: pular 1s infinite forwards;
     }
     @keyframes pular{
@@ -367,10 +301,6 @@ body{
         height: 100vh;
     }
 
-    #cover video{
-        width: 100vw;
-    }
-
     #videoUm{
         display: none;
     }
@@ -381,14 +311,14 @@ body{
 
     #coverImagemInicial{
         width: 100vw;
-        height: 85vh;
+        height: 100vh;
         background-color: rgba(184,183, 247, 0.45);
         display: flex;
         align-items: center;
         justify-content: center;
         text-align: center;
         position:relative;
-        bottom: 84vh;
+        bottom: 100vh;
         color: #eee;
     }
 
@@ -442,7 +372,6 @@ body{
         bottom: 5vh;
         margin: 0 1.5vh;
         z-index: 0.3;
-        background-color: #eaedf6;
         animation: pular 1s infinite forwards;
     }
     @keyframes pular{
@@ -468,7 +397,7 @@ body{
 
     .cardH{
         width: 20vh;
-        height: 20vh;
+        height: 24vh;
         border: 1px solid #000;
         display: flex;
         align-items: center;
