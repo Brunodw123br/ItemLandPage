@@ -479,6 +479,231 @@ body{
 } 
 
 
-@media only screen and (orientation: portrait) and (min-width > 800){
+@media only screen and (orientation: portrait) and (min-width: 768px){
+    .containerHeader{
+        display: flex;
+        padding: 0 3vw;
+        justify-content: space-between;
+        width: 100vw;
+        height: 8.2vh;
+        justify-items: center;
+        align-items: center;
+        background-color: #eaedf6;
+        position: relative;
+        z-index: 4;
+    }
 
+    .containerHeader img{
+        width: 8vw;
+        height: 8vw;
+    }
+
+    .containerHeader h1{
+        font-size: 4vw;
+    }
+
+    .containerNav{
+        display: flex;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        background-color: rgba(255, 255, 255, 0.25); 
+        width: 100vw;
+        height:2.5vw;
+        min-height: 40px;
+        border-bottom: 1px solid #000;
+        box-shadow: 0 4px 3px rgba(0, 0, 0, 0.2);
+    }
+    .containerNav a{
+        color: #333;
+    }
+
+    .containerNav a:hover{
+        color: #fc5694;
+    }
+
+    .containerNav nav, .containerNav nav ul{
+        display:flex;
+        justify-content: space-evenly;
+        width: 100vw;
+        align-items: center;
+        background-color: #eaedf6;
+    }
+
+    #produto, #caracteristica, #especificacao {
+        width: 100vw;
+        height: 130vh;
+    }
+    #cover{
+        width: 100vw;
+        height: 130vh;
+    }
+
+    #videoUm{
+        display: none;
+    }
+
+    #videoDois{
+        display: block;
+    }
+
+    #coverImagemInicial{
+        width: 100vw;
+        height: 140vh;
+        background-color: rgba(184,183, 247, 0.45);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        position:relative;
+        bottom: 140vh;
+        color: #eee;
+        z-index: 1;
+    }
+
+    #coverImagemInicial h2{
+        font-size: 8vh;
+    }
+
+    #coverImagemInicial h3{
+        font-size: 2vh;
+    }
+
+    #produto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: inset 0 -25px 30px -20px rgba(200, 88, 200, 0.7)
+    }
+
+    #produto h2{
+        margin-top: 10vh;
+        font-size: 4vh;
+        color: #333;
+    }
+    .card{
+        border: #555 solid 1px;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        padding: 1vh;
+        width: 40vh;
+        margin-top: 15vh;
+        box-shadow: 0 0 2.6px 0.5px #000;
+        justify-content: space-evenly;
+        color: #333;
+        font-size:2vh;
+    }
+
+    .esquerda{
+        position: relative;
+        right: 10vw;
+    }
+
+    .direita{
+        position: relative;
+        left: 10vw;
+    }
+
+    .card img{
+        width: 7vw;
+        height: 7vw;
+        position: relative;
+        bottom: 5vh;
+        margin: 0 1.5vh;
+        z-index: 0.3;
+        animation: pular 1s infinite forwards;
+    }
+    @keyframes pular{
+        to{
+            top: 0vh;
+        }
+    }
+
+    #caracteristica{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        box-shadow: inset 0 -30px 20px -20px rgba(132, 62, 185, 0.6); 
+        flex-wrap: wrap;
+    }
+
+    #caracteristica h2{
+        font-size: 3vh;
+        color: #333;
+        width: 100vw;
+        text-align: center;
+    }
+
+    .cardH{
+        width: 30vh;
+        height: 20vh;
+        border: 1px solid #000;
+        display: flex;
+        align-items: center;
+        flex-flow: column;
+        font-size: 1.5vw;
+        border-radius: 10px;
+    }
+
+    .cardH img{
+        height: 9vh;
+        border-bottom: 1px solid #000;
+        border-radius:10px 10px 12px 12px;
+    }
+
+    .cardH p{
+        padding: 1vh;
+        font-size: 1.5vh;
+        text-align: justify;
+    }
+
+    #especificacao{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #especificacao h2{
+        margin: 5vh 0 2vh 0;
+        font-size: 3vh;
+        color: #333;
+        text-align: center;
+    }
+
+    .especificacao{
+        padding: 1vh 3vh;
+        background-color: #d0d6e8;
+        width: 80%;
+        height: 95%;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .especificacao p{
+        font-size: 2.5vw;
+        margin-top: 0.2vh;
+        text-align: justify;
+    }
+
+    .especificacao h3{
+        text-align: center;
+        width: 100%;
+        font-size: 1.5vh;
+        margin: 0.2vh 0;
+    }
+
+    .footerContainer{
+        width: 100%;
+        border-top: 1px solid #333;
+        box-shadow: 5px 0 5px rgba(0, 0, 0, 0.7);
+        display: flex;
+        
+    }
+
+    .footerContainer img{
+        width: 4vh;
+        height: 4vh;
+    }
 }
