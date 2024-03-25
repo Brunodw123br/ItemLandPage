@@ -128,7 +128,7 @@ body{
         align-items: center;
         padding: 1px;
         width: 40vw;
-        margin-top: 4vw;
+        margin-top: 3vw;
         box-shadow: 0 0 2.6px 0.5px #000;
         justify-content: space-evenly;
         color: #333;
@@ -358,7 +358,7 @@ body{
         align-items: center;
         padding: 1vh;
         width: 30vh;
-        margin-top: 8vh;
+        margin-top: 6vh;
         box-shadow: 0 0 2.6px 0.5px #000;
         justify-content: space-evenly;
         color: #333;
