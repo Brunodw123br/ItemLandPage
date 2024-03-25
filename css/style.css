@@ -13,24 +13,26 @@ html{
 body{
     overflow-x: hidden;
 }
-
     .container{
         background-color: #eaedf6;
     }
 
     .containerHeader{
         display: flex;
-        padding: 0 3vw;
+        padding: 3vw 3vw;
         justify-content: space-between;
         width: 100vw;
-        height: 8.2vw;
+        height: 8.2vh;
         justify-items: center;
         align-items: center;
+        background-color: #eaedf6;
+        position: relative;
+        z-index: 4;
     }
 
     .containerHeader img{
         width: 8vw;
-        height: 8vw;
+        height: 10vh;
     }
 
     .container h1{
@@ -63,17 +65,16 @@ body{
         justify-content: space-evenly;
         width: 100vw;
         align-items: center;
-        z-index: 1;
         background-color: #eaedf6;
     }
 
     #produto, #caracteristica, #especificacao {
         width: 100vw;
-        height: 60vw;
+        height: 120vh;
     }
     #cover{
         width: 100vw;
-        height: 60vw;
+        height: 120vh;
     }
 
     #cover video{
@@ -90,14 +91,14 @@ body{
 
     #coverImagemInicial{
         width: 100vw;
-        height: 57vw;
+        height: 120vh;
         background-color: rgba(184,183, 247, 0.45);
         display: flex;
         align-items: center;
         justify-content: center;
         text-align: center;
         position:relative;
-        bottom: 57vw;
+        bottom: 120vh;
         color: #eee;
     }
 
@@ -148,7 +149,7 @@ body{
         width: 7vw;
         height: 7vw;
         position: relative;
-        bottom: 2.6vw;
+        bottom: 3vh;
         z-index: 0.3;
         animation: pular 1s infinite forwards;
     }
@@ -214,7 +215,7 @@ body{
         padding: 0.5vw 6vw;
         background-color: #d0d6e8;
         width: 80%;
-        height: 47.5vw;
+        height: 95vh;
         border-radius: 10px;
     }
 
@@ -234,6 +235,11 @@ body{
         width: 100%;
         border-top: 1px solid #333;
         box-shadow: 5px 0 5px rgba(0, 0, 0, 0.7);
+        align-items: center;
+        display: flex;
+        text-align: center;
+        justify-items: center;
+        height: 10vh;
     }
 
     .footerContainer img{
@@ -242,15 +248,17 @@ body{
     }
 
 @media(orientation: portrait){
-
     .containerHeader{
         display: flex;
         padding: 0 3vw;
         justify-content: space-between;
         width: 100vw;
-        height: 8.2vw;
+        height: 8.2vh;
         justify-items: center;
         align-items: center;
+        background-color: #eaedf6;
+        position: relative;
+        z-index: 4;
     }
 
     .containerHeader img{
@@ -258,7 +266,7 @@ body{
         height: 8vw;
     }
 
-    .container h1{
+    .containerHeader h1{
         font-size: 4vw;
     }
 
@@ -272,7 +280,6 @@ body{
         height:2.5vw;
         min-height: 40px;
         border-bottom: 1px solid #000;
-        z-index: 2;
         box-shadow: 0 4px 3px rgba(0, 0, 0, 0.2);
     }
     .containerNav a{
@@ -288,7 +295,6 @@ body{
         justify-content: space-evenly;
         width: 100vw;
         align-items: center;
-        z-index: 1;
         background-color: #eaedf6;
     }
 
@@ -320,6 +326,7 @@ body{
         position:relative;
         bottom: 100vh;
         color: #eee;
+        z-index: 1;
     }
 
     #coverImagemInicial h2{
@@ -329,6 +336,7 @@ body{
     #coverImagemInicial h3{
         font-size: 2vh;
     }
+
     #produto{
         display: flex;
         flex-direction: column;
